@@ -83,6 +83,7 @@
     transition: 0.5s;
 
     padding: 30px 10px 10px 10px;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
 }
 
 .box-img-zoom{
@@ -153,6 +154,7 @@
     font-size: 0.9rem;
     color: rgb(95, 95, 95);
     background: white;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
 }
 
 .chef-name img{
