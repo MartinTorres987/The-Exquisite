@@ -161,3 +161,24 @@
     width: 100%;
     border-radius: 15px;    
 }
+
+
+
+/*--- --- --- ---- ---- Bon appetit ----- ----- ----- ----- ----- */
+
+.final-words{
+    width: 100%;
+    height: 450px;
+    line-height: 400px;
+    text-align: center;
+    color: var(--my-color);
+    font-family: var(--special-font-2);
+}
+
+.final-words h1{
+    font-family: var(--special-font-2);
+    font-size: 5rem;
+}
+
+
+
