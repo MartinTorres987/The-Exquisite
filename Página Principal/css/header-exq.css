@@ -8,6 +8,19 @@
     box-sizing: border-box;
     font-family: var(--my-font);
 }
+body{
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+    width: 7px;
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #F72188;
+    border-radius: 15px;
+}
 
 .background-img{
     position: absolute;
@@ -67,6 +80,15 @@
     display: flex;
     position: relative;
 }
+
+.box-face-page nav.sticky{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 35px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.555);
+    color: black;
+}
+
+
 .navegation li{
     list-style: none;
     margin-left: 30px;
@@ -102,6 +124,15 @@
     transform-origin: center;
 }
 
+nav.sticky li a{
+    color: black;
+}
+
+nav.sticky li a::before{
+    background-color: black;
+}
+
+
 /*--- ---- ---- --- --- Title ---- --- --- -- */
 .title-index{
     text-align: center;
@@ -112,6 +143,7 @@
     flex-direction: column;
     position: relative;
     height: 60vh;
+    width: 90%;
 }
 .title-index h1{
     font-size: 6vw;
@@ -122,9 +154,8 @@
     font-size: 4vw;
 }
 
-
 .title-index button{
-    width: 20vw;
+    width: 20%;
     height: 40px;
     min-width: 200px;
     background-color: #F72188;
@@ -133,6 +164,8 @@
     color: white;
     position: absolute;
     bottom: 0px;
+    display: block;
+    left: 40%;
     font-size: 1.2rem;
 
     transition: transform 0.5s ease-in-out;

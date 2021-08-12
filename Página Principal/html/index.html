@@ -10,6 +10,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -27,13 +28,83 @@
                 <div class="title-index">
                     <h1>Enjoy the best flavors</h1>
                     <h3>For a sweet time</h3>
-                    <button class="button-menu-productss">Our Menu</button>
+                    <a href="#menu-the"><button class="button-menu-productss">Our Menu</button></a>
                 </div>
             </div>
         </header>
         <section class="mega-box">
-            
+            <div class="box-about-us">
+                <div class="text-img">
+                    <div class="text-about-us">
+                        <h1>About Us</h1>
+                        <p>Hello, The Exquisite family greets you, we are a bakery that cares about giving you what you deserve, the best flavor in your celebrations and makes you spend a sweet moment with your loved ones.</p>
+                        <p>Enjoy the moment, live the flavor of our products, which will undoubtedly make you a happier and above all sweet day.</p>
+                    </div>
+                    <div class="bakery-img">
+                        <img src="../../Recursos/Imagenes/unnamed.jpg" alt="img">
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-menu-products">
+                <h1 id="menu-the">Our Menu</h1>
+                <div class="container-products">
+                    <div class="cakes box-p">
+                        <div class="box-img-zoom">
+                            <a href=""><img src="../../Recursos/Imagenes/pasteles/paso_a_paso_para_realizar_pastel_decorado_con_3_texturas_de_chocolate_resultado_final_bdcd345a_800x800.jpg" alt="img"></a>     
+                        </div>
+                        <h3>Cakes</h3>
+                        <h4>Go ahead and create a sweet with these wonderful cakes made with a special touch.</h4>
+                    </div>
+                    <div class="cupcakes box-p">
+                        <div class="box-img-zoom">
+                            <a href=""><img src="../../Recursos/Imagenes/pasteles/como-hacer-cupcakes-de-vainilla-para-vender.jpg" alt="img"></a>
+                            
+                        </div>
+                        <h3>CupCakes</h3>
+                        <h4>Go ahead and create a sweet with these wonderful cakes made with a special touch.</h4>
+                    </div>
+                    <div class="pastries box-p">
+                        <div class="box-img-zoom">
+                            <a href=""><img src="../../Recursos/Imagenes/pasteles/pan-de-dulce.jpg"" alt="img"></a>
+                            
+                        </div>
+                        <h3>Pastries</h3>
+                        <h4>Go ahead and create a sweet with these wonderful cakes made with a special touch.</h4>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="pastry-chefs">
+                <h1>Our cooks</h1>
+                <h3>The best ones to fill your pastries with sweetness</h3>
+
+                <div class="container-cheft">
+                    <div class="chef-name">
+                        <img src="../../Recursos/Imagenes/Cocineros/hombre.jpg" alt="">
+                        <h2>Steve Jones</h2>
+                    </div>
+                    <div class="chef-name">
+                        <img src="../../Recursos/Imagenes/Cocineros/mujer.jpg" alt="">
+                        <h2>Sweet Moore</h2>
+                    </div>
+                    <div class="chef-name">
+                        <img src="../../Recursos/Imagenes/Cocineros/unnamed.jpg" alt="">
+                        <h2>Amelie Miller</h2>
+                    </div>
+                </div>
+                
+            </div>
         </section>
+        <footer></footer>
     
     </body>
+    <script>
+        window.addEventListener("scroll", function(){
+            const header = document.querySelector("nav");
+
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
 </html>

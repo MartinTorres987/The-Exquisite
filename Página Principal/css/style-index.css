@@ -1,0 +1,161 @@
+:root{
+    --my-border: 1px black solid;
+    --my-font: 'Poppins', sans-serif;
+    --special-font: 'Cookie', cursive;
+    --my-color: #F72188;
+    --special-font-2: 'Berkshire Swash', cursive;
+}
+
+/*--- ---- ---- --- ------ About Us ---- ---- ---- ---- ---- --- --*/
+.box-about-us{
+    width: 100%;
+    padding: 50px;
+}
+
+.text-img h1{
+    font-family: var(--special-font-2);
+    font-size: 4rem;
+    font-weight: normal;
+    color: #F72188;
+}
+
+.text-img{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.text-about-us{
+    width: 45%;
+    padding: 40px 40px;
+    font-size: 1.6vw;
+}
+.text-about-us p{
+    margin: 10px 0;
+}
+
+.bakery-img{
+    margin-right: 40px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.bakery-img img{
+    width: 100%;
+}
+
+/*--- ---- ---- --- ------ Our Menu ---- ---- ---- ---- ---- --- --*/
+.pastry-chefs,
+.box-menu-products{
+    width: 100%;
+    padding: 55px;
+    margin-top: 50px;
+}
+
+.box-menu-products h1{
+    color: var(--my-color);
+    font-family: var(--special-font-2);
+    font-size: 3.5rem;
+    font-weight: 200;
+    text-align: center;
+    height: 110px;
+    width: 300px;
+    line-height: 110px;
+    margin: 0px auto;
+
+    border-bottom: var(--my-color) 4px solid;
+    border-top: var(--my-color) 4px solid;
+}
+
+.container-products{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-p{
+    width: 30%;
+    text-align: center;
+    border-radius: 15px;
+    transition: 0.5s;
+
+    padding: 30px 10px 10px 10px;
+}
+
+.box-img-zoom{
+    width: 100%;
+}
+
+.box-p img{
+    width: 90%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+.box-img-zoom img:hover{
+    transform: scale(1.03);
+    transform-origin: bottom;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.box-p h3{
+    font-size: 1.7rem;
+}
+
+.box-p h4{
+    font-weight: normal;
+    color: rgb(131, 131, 131);
+    margin-bottom: 20px;
+}
+
+.box-p:hover{
+    background-color: rgb(228, 227, 227);
+    transform: scale(1.03);
+}
+
+/*---- ---- --- ----- Chef ------ ------ ------ */
+
+
+.pastry-chefs h1,
+.pastry-chefs h3{
+    text-align: center;
+}
+
+.pastry-chefs h1{
+    font-family: var(--special-font-2);
+    color: var(--my-color);
+    font-size: 3.5rem;
+}
+
+.pastry-chefs h3{
+    font-weight: normal;
+    color: rgb(148, 147, 147);
+}
+
+
+.container-cheft{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.chef-name{
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: rgb(95, 95, 95);
+    background: white;
+}
+
+.chef-name img{
+    width: 100%;
+    border-radius: 15px;    
+}
