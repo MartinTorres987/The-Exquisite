@@ -73,17 +73,19 @@
     width: 100%;
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .box-p{
-    width: 30%;
+    width: 345px;
     text-align: center;
     border-radius: 15px;
     transition: 0.5s;
 
     padding: 30px 10px 10px 10px;
     box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+    margin: 25px 0px;
 }
 
 .box-img-zoom{
@@ -143,21 +145,44 @@
 .container-cheft{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 50px;
 }
 
 .chef-name{
-    width: 30%;
+    width: 357px;
     padding: 20px;
     text-align: center;
     font-size: 0.9rem;
     color: rgb(95, 95, 95);
     background: white;
     box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+
+    margin: 25px 0px;
 }
 
 .chef-name img{
     width: 100%;
     border-radius: 15px;    
 }
+
+
+
+/*--- --- --- ---- ---- Bon appetit ----- ----- ----- ----- ----- */
+
+.final-words{
+    width: 100%;
+    height: 450px;
+    line-height: 400px;
+    text-align: center;
+    color: var(--my-color);
+    font-family: var(--special-font-2);
+}
+
+.final-words h1{
+    font-family: var(--special-font-2);
+    font-size: 5rem;
+}
+
+
+

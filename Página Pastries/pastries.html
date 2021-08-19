@@ -4,9 +4,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>The Exquisite - Cakes</title>
+        <title>The Exquisite - Pastries</title>
         <link rel="stylesheet" href="../Página Principal/css/header-exq.css">
-        <link rel="stylesheet" href="cakes-style.css">
+        <link rel="stylesheet" href="archivos_css/style-pastries.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
@@ -19,54 +19,84 @@
                 <nav class="box-header">
                     <h3>The Exquisite</h1>
                     <ul class="navegation">
-                        <li><a href="">Login</a></li>
                         <li><a href="../Página Principal/html/index.html">Home</a></li>
+                        <li><a href="">Login</a></li>
+                        <li><a href="">Sign in</a></li>
                         <li><a href="">Cakes</a></li>
                         <li><a href="">Pastries</a></li>
                     </ul>
                 </nav>
                 <div class="title-index">
-                    <h1>Gâteaux</h1>
-                    <h3>Cakes</h3>
-                    <button class="button-menu-productss">Our Menu</button>
+                    <h1>Des pâtisseries</h1>
+                    <h3>Pastries</h3>
+                    <a href="#menu-the"><button class="button-menu-productss">Our Menu</button></a>
                 </div>
             </div>
         </header>
+
         <section class="mega-box">
             <div class="box-pastries">
-                <h1>Our Cakes</h1>
+                <h1>Our Pastries</h1>
                 <h3>Choose the one you like the most, they are all delicious</h3>
                 <div class="container-products-p">
 
                     <!--Aqui vas a colocar los productos -->
                     <div class="product-pastrie">
                         <div class="img-pan">
-                            <img src="../Recursos/Imagenes/Cupcake/9lAb2baoa_340x340__1.jpg" alt="img">
+                            <img src="../Recursos/Imagenes/pan-dulce/EV_fkj3XQAAN0mD.jpg" alt="img">
                         </div>
-                        <h2>Cakes Chocolate</h2>
+                        <h2>Pichardines</h2>
                         <P>Enjoy these pichardines with pineapple jelly and an exquisite dough</P>
                     </div>
                     <div class="product-pastrie">
                         <div class="img-pan">
-                            <img src="../Recursos/Imagenes/Cupcake/cupcakes-de-platano-con-chocolate.webp" alt="img">
+                            <img src="../Recursos/Imagenes/pan-dulce/quesa.jpg" alt="img">
                         </div>
-                        <h2>Chocalate CupCakes</h2>
-                        <P>Enjoy these pichardines with pineapple jelly and an exquisite dough</P>
+                        <h2>Quesadilla</h2>
+                        <P>Who can resist a fresh out of the oven? Even reheated and well toasted it is delicious.</P>
                     </div>
                     <div class="product-pastrie">
                         <div class="img-pan">
-                            <img src="../Recursos/Imagenes/Cupcake/th5-640x640-23726.jpg" alt="img">
+                            <img src="../Recursos/Imagenes/pan-dulce/semitp.JPG" alt="img">
                         </div>
-                        <h2>CupCakes</h2>
-                        <P>Enjoy these pichardines with pineapple jelly and an exquisite dough</P>
+                        <h2>Semita Pacha</h2>
+                        <P>Pineapple, guava, whatever you prefer. She is always well received in the home of a Salvadoran at coffee time.</P>
+                    </div>
+
+                    <div class="product-pastrie">
+                        <div class="img-pan">
+                            <img src="../Recursos/Imagenes/pan-dulce/pepe.jpg" alt="img">
+                        </div>
+                        <h2>Peperecha</h2>
+                        <P>The way the coffee infuses them ... simply exquisite! And how they melt in your mouth is the perfect addition.</P>
+                    </div>
+                    
+                    <div class="product-pastrie">
+                        <div class="img-pan">
+                            <img src="../Recursos/Imagenes/pan-dulce/tortaY.jpg" alt="img">
+                        </div>
+                            <h2>Torta de yema</h2>
+                            <P>The grannies sure know them well. And no, we do not say it by name, but because, for some reason, many prefer them.</P>
+                    </div>
+
+                    <div class="product-pastrie">
+                        <div class="img-pan">
+                            <img src="../Recursos/Imagenes/pan-dulce/piña.jpg" alt="img">
+                        </div>
+                            <h2>Pastelitos de piña</h2>
+                            <P>The jelly was missing inside, right? There are also milk and apple ones, so you have to choose from.</P>
                     </div>
                     
                    
 
                 </div>
             </div>
+            
         </section>
+
+
         <footer>
+            <!--Esta parte se las pondré yo, pero todavía no lo he hecho xd-->
             <div class="box-footer">
                 <h2>The Exquisite</h2>
                 <div class="info-product info">
@@ -92,15 +122,14 @@
                     
                 </div>
             </div>
-            
         </footer>
-        <script>
-            window.addEventListener("scroll", function(){
-                const header = document.querySelector("nav");
-    
-                header.classList.toggle("sticky", window.scrollY > 0);
-            });
-        </script>
     
     </body>
+    <script>
+        window.addEventListener("scroll", function(){
+            const header = document.querySelector("nav");
+
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
 </html>

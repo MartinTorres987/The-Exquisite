@@ -1,0 +1,74 @@
+:root{
+    --my-border: 1px black solid;
+    --my-font: 'Poppins', sans-serif;
+    --special-font: 'Cookie', cursive;
+    --my-color: #F72188;
+    --special-font-2: 'Berkshire Swash', cursive;
+}
+
+
+.background-img{
+    background-image: url(../Recursos/Imagenes/front-view-birthday-cake-decorated-with-cream-strawberries-round-sweet-birthday-celebration.jpg);
+}
+
+.mega-box{
+    margin-top: 100px;
+}
+
+.box-pastries{
+    width: 100%;
+    text-align: center;
+}
+
+.box-pastries h1{
+    font-family: var(--special-font-2);
+    font-size: 5rem;
+    color: var(--my-color);
+}
+
+.box-pastries h3{
+    font-weight: normal;
+    color: rgb(117, 117, 117);
+}
+
+/* pRODUCTOS*/
+
+.container-products-p{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 40px;
+    
+}
+
+.container-products-p .product-pastrie{
+    width: 357px;
+    padding: 25px;
+    margin: 25px 0px;
+    border-radius: 15px;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+    background: white;
+    transition: 00.5s ease-in-out;
+}
+.img-pan{
+    width: 100%;
+}
+
+.product-pastrie img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+.product-pastrie:hover{
+    background-color: rgb(228, 227, 227);
+    transform: scale(1.03);
+}
+
+.img-pan img:hover{
+    transform: scale(1.03);
+    transform-origin: bottom;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
